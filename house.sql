@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 11, 2026 at 12:21 PM
+-- Generation Time: Apr 14, 2026 at 01:44 PM
 -- Server version: 9.1.0
 -- PHP Version: 8.3.14
 
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `housebills` (
   `ta_link` varchar(100) NOT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `YSB` (`Bill`,`Year`,`Session`)
-) ENGINE=MyISAM AUTO_INCREMENT=630 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=634 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `housebills`
@@ -207,46 +207,47 @@ INSERT INTO `housebills` (`ID`, `Year`, `Session`, `Bill`, `LastAction`, `voteid
 (399, 2026, 'R', '2819', '4/9/2026 Public Hearing Scheduled (S)', 408, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6240H.02P.pdf', -1, -1, -1, -1, ''),
 (405, 2026, 'R', '2944', '4/8/2026 Second read and referred: Select Committee on Property Taxes and the State Tax Commission', 412, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6569H.02P.pdf', -1, -1, -1, -1, ''),
 (401, 2026, 'R', '2896', '4/9/2026 Public Hearing Scheduled (S)', 411, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6382H.02P.pdf', -1, -1, -1, -1, ''),
-(398, 2026, 'R', '2818', '4/7/2026 Public Hearing Held (S)', 409, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5978H.02P.pdf', -1, -1, -1, -1, ''),
+(398, 2026, 'R', '2818', '4/13/2026 SCS Voted Do Pass (S)', 409, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5978H.02P.pdf', -1, -1, -1, -1, ''),
 (290, 2026, 'R', '1663', '3/12/2026 Second read and referred: Education', 310, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/3933H.02P.pdf', -1, -1, -1, -1, ''),
 (320, 2026, 'R', '1866', '4/8/2026 Reported Do Pass (S)', 337, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4736H.02P.pdf', -1, -1, -1, -1, ''),
 (397, 2026, 'R', '2780', '4/1/2026 Public Hearing Held (S)', 410, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4419H.05P.pdf', -1, -1, -1, -1, ''),
 (374, 2026, 'R', '2508', '4/9/2026 Public Hearing Scheduled (S)', 385, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6075H.02P.pdf', -1, -1, -1, -1, ''),
-(375, 2026, 'R', '2547', '4/8/2026 Second read and referred: Judiciary and Civil and Criminal Jurisprudence', 384, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4210H.01P.pdf', -1, -1, -1, -1, ''),
+(375, 2026, 'R', '2547', '4/13/2026 Public Hearing Scheduled (S)', 384, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4210H.01P.pdf', -1, -1, -1, -1, ''),
 (376, 2026, 'R', '2559', '3/23/2026 Voted Do Pass (H)', 388, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4436H.01P.pdf', -1, -1, -1, -1, ''),
-(321, 2026, 'R', '1867', '3/31/2026 Second read and referred: Local Government, Elections and Pensions', 340, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4855H.02P.pdf', -1, -1, -1, -1, ''),
+(321, 2026, 'R', '1867', '4/13/2026 Public Hearing Held (S)', 340, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4855H.02P.pdf', -1, -1, -1, -1, ''),
 (396, 2026, 'R', '2774', '4/8/2026 Voted Do Pass (S)', 406, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4480H.02P.pdf', -1, -1, -1, -1, ''),
 (354, 2026, 'R', '2230', '4/8/2026 Second read and referred: Education', 370, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5744H.04P.pdf', -1, -1, -1, -1, ''),
 (355, 2026, 'R', '2273', '4/7/2026 Delivered to Secretary of State (G)', 368, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5011H.04P.pdf', 369, -1, 30, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5011S.09T.pdf'),
 (343, 2026, 'R', '2103', '3/31/2026 Second read and referred: Insurance and Banking', 360, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4097H.04P.pdf', -1, -1, -1, -1, ''),
-(344, 2026, 'R', '2105', '4/7/2026 Public Hearing Scheduled (S)', 359, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5438H.02P.pdf', -1, -1, -1, -1, ''),
+(344, 2026, 'R', '2105', '4/13/2026 Public Hearing Scheduled (S)', 359, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5438H.02P.pdf', -1, -1, -1, -1, ''),
 (345, 2026, 'R', '2108', '4/8/2026 Public Hearing Held (S)', 358, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4906H.02P.pdf', -1, -1, -1, -1, ''),
 (346, 2026, 'R', '2120', '4/8/2026 Second read and referred: Education', 362, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4303H.04P.pdf', -1, -1, -1, -1, ''),
 (347, 2026, 'R', '2125', '4/9/2026 Referred: Fiscal Oversight', 366, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4226H.02P.pdf', -1, -1, -1, -1, ''),
 (348, 2026, 'R', '2145', '4/8/2026 Voted Do Pass (S)', 365, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4656H.01P.pdf', -1, -1, -1, -1, ''),
-(349, 2026, 'R', '2146', '3/23/2026 Second read and referred: General Laws', 364, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5669H.01P.pdf', -1, -1, -1, -1, ''),
+(349, 2026, 'R', '2146', '4/13/2026 Public Hearing Scheduled (S)', 364, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5669H.01P.pdf', -1, -1, -1, -1, ''),
 (350, 2026, 'R', '2167', '3/12/2026 Second read and referred: Judiciary and Civil and Criminal Jurisprudence', 363, 425, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5270H.01P.pdf', -1, -1, -1, -1, ''),
 (351, 2026, 'R', '2178', '3/12/2026 Second read and referred: Select Committee on Property Taxes and the State Tax Commission', 367, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5348H.02P.pdf', -1, -1, -1, -1, ''),
-(352, 2026, 'R', '2180', '4/1/2026 Referred: Fiscal Oversight', 372, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5542H.02P.pdf', -1, -1, -1, -1, ''),
+(352, 2026, 'R', '2180', '4/13/2026 Reported Do Pass (S)', 372, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5542H.02P.pdf', -1, -1, -1, -1, ''),
 (468, 2026, 'R', '2898', '4/8/2026 Second read and referred: Local Government, Elections and Pensions', 436, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5518H.02P.pdf', -1, -1, -1, -1, ''),
 (315, 2026, 'R', '1839', '4/8/2026 Public Hearing Held (S)', 332, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4734H.04P.pdf', -1, -1, -1, -1, ''),
 (394, 2026, 'R', '2748', '4/9/2026 Public Hearing Scheduled (S)', 403, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/3931H.04P.pdf', -1, -1, -1, -1, ''),
 (353, 2026, 'R', '2189', '3/12/2026 Second read and referred: Transportation, Infrastructure and Public Safety', 371, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4654H.01P.pdf', -1, -1, -1, -1, ''),
-(392, 2026, 'R', '2742', '4/9/2026 Public Hearing Scheduled (S)', 405, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6086H.03P.pdf', -1, -1, -1, -1, ''),
-(625, 2026, 'R', '2848', '4/9/2026 Third Read and Passed (H)', 462, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6526H.01P.pdf', -1, -1, -1, -1, ''),
+(392, 2026, 'R', '2742', '4/13/2026 Public Hearing Held (S)', 405, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6086H.03P.pdf', -1, -1, -1, -1, ''),
+(625, 2026, 'R', '2848', '4/13/2026 Reported to the Senate and First Read (S)', 462, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6526H.01P.pdf', -1, -1, -1, -1, ''),
 (393, 2026, 'R', '2747', '4/8/2026 Public Hearing Held (S)', 404, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4181H.05P.pdf', -1, -1, -1, -1, ''),
-(391, 2026, 'R', '2710', '4/8/2026 SCS Reported Do Pass (S)', 402, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6102H.07P.pdf', -1, -1, -1, -1, ''),
-(473, 2026, 'R', '1871', '4/8/2026 Second read and referred: Local Government, Elections and Pensions', 441, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5033H.04P.pdf', -1, -1, -1, -1, ''),
+(391, 2026, 'R', '2710', '4/13/2026 Referred: Fiscal Oversight', 402, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6102H.07P.pdf', -1, -1, -1, -1, ''),
+(473, 2026, 'R', '1871', '4/13/2026 Public Hearing Held (S)', 441, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5033H.04P.pdf', -1, -1, -1, -1, ''),
 (390, 2026, 'R', '2682', '3/12/2026 Second read and referred: Education', 399, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6425H.03P.pdf', -1, -1, -1, -1, ''),
 (388, 2026, 'R', '2642', '3/31/2026 Second read and referred: Insurance and Banking', 400, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6283H.04P.pdf', -1, -1, -1, -1, ''),
 (387, 2026, 'R', '2641', '4/2/2026 House Message (H)', 401, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6366H.02P.pdf', 435, -1, 33, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6366S.11T.pdf'),
 (385, 2026, 'R', '2636', '4/8/2026 Second read and referred: Insurance and Banking', 394, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6376H.01P.pdf', -1, -1, -1, -1, ''),
 (386, 2026, 'R', '2637', '4/8/2026 SCS Voted Do Pass (S)', 398, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6162H.04P.pdf', -1, -1, -1, -1, ''),
-(384, 2026, 'R', '2610', '3/31/2026 Second read and referred: Judiciary and Civil and Criminal Jurisprudence', 395, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6115H.03P.pdf', -1, -1, -1, -1, ''),
-(383, 2026, 'R', '2600', '4/7/2026 Public Hearing Held (S)', 396, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4533H.03P.pdf', -1, -1, -1, -1, ''),
+(631, 2026, 'R', '2740', '4/13/2026 Reported to the Senate and First Read (S)', 468, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4420H.03P.pdf', -1, -1, -1, -1, ''),
+(384, 2026, 'R', '2610', '4/13/2026 Public Hearing Scheduled (S)', 395, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6115H.03P.pdf', -1, -1, -1, -1, ''),
+(383, 2026, 'R', '2600', '4/13/2026 Voted Do Pass (S)', 396, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4533H.03P.pdf', -1, -1, -1, -1, ''),
 (382, 2026, 'R', '2596', '4/8/2026 Reported Do Pass (S)', 397, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5996H.02P.pdf', -1, -1, -1, -1, ''),
-(381, 2026, 'R', '2593', '4/8/2026 SCS Reported Do Pass (S)', 393, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6092H.02P.pdf', -1, -1, -1, -1, ''),
-(380, 2026, 'R', '2592', '3/23/2026 Second read and referred: Judiciary and Civil and Criminal Jurisprudence', 389, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4207H.02P.pdf', -1, -1, -1, -1, ''),
+(381, 2026, 'R', '2593', '4/13/2026 Referred: Fiscal Oversight', 393, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6092H.02P.pdf', -1, -1, -1, -1, ''),
+(380, 2026, 'R', '2592', '4/13/2026 Public Hearing Scheduled (S)', 389, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4207H.02P.pdf', -1, -1, -1, -1, ''),
 (379, 2026, 'R', '2591', '3/24/2026 Public Hearing Held (S)', 390, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4165H.01P.pdf', -1, -1, -1, -1, ''),
 (378, 2026, 'R', '2587', '4/8/2026 SCS Voted Do Pass (S)', 392, 426, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6127H.02P.pdf', -1, -1, -1, -1, ''),
 (377, 2026, 'R', '2586', '4/7/2026 Voted Do Pass Consent (S)', 391, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6323H.01P.pdf', -1, -1, -1, -1, ''),
@@ -257,20 +258,21 @@ INSERT INTO `housebills` (`ID`, `Year`, `Session`, `Bill`, `LastAction`, `voteid
 (478, 2026, 'R', '2760', '4/8/2026 Second read and referred: General Laws', 445, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4547H.01P.pdf', -1, -1, -1, -1, ''),
 (367, 2026, 'R', '2404', '3/31/2026 Public Hearing Held (S)', 382, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4426H.04P.pdf', -1, -1, -1, -1, ''),
 (366, 2026, 'R', '2397', '4/8/2026 Voted Do Pass (S)', 380, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4332H.01P.pdf', -1, -1, -1, -1, ''),
+(630, 2026, 'R', '2422', '4/13/2026 Reported to the Senate and First Read (S)', 467, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5449H.01P.pdf', -1, -1, -1, -1, ''),
 (365, 2026, 'R', '2395', '4/8/2026 Public Hearing Held (S)', 376, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4633H.01P.pdf', -1, -1, -1, -1, ''),
-(364, 2026, 'R', '2384', '2/26/2026 Second read and referred: Local Government, Elections and Pensions', 377, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5770H.03P.pdf', -1, -1, -1, -1, ''),
+(364, 2026, 'R', '2384', '4/13/2026 Public Hearing Held (S)', 377, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5770H.03P.pdf', -1, -1, -1, -1, ''),
 (363, 2026, 'R', '2383', '4/8/2026 SCS Voted Do Pass (S)', 378, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5584H.01P.pdf', -1, -1, -1, -1, ''),
 (362, 2026, 'R', '2375', '3/25/2026 Public Hearing Scheduled (S)', 379, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4743H.02P.pdf', -1, -1, -1, -1, ''),
 (461, 2026, 'R', '2355', '4/10/2026 Public Hearing Scheduled (S)', 431, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4711H.02P.pdf', -1, -1, -1, -1, ''),
-(472, 2026, 'R', '1740', '4/8/2026 Second read and referred: Judiciary and Civil and Criminal Jurisprudence', 439, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5381H.01P.pdf', -1, -1, -1, -1, ''),
-(456, 2026, 'R', '1768', '4/8/2026 Second read and referred: Local Government, Elections and Pensions', 428, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4108H.02P.pdf', -1, -1, -1, -1, ''),
+(472, 2026, 'R', '1740', '4/13/2026 Public Hearing Scheduled (S)', 439, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5381H.01P.pdf', -1, -1, -1, -1, ''),
+(456, 2026, 'R', '1768', '4/13/2026 Public Hearing Held (S)', 428, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4108H.02P.pdf', -1, -1, -1, -1, ''),
 (358, 2026, 'R', '2335', '3/31/2026 Public Hearing Held (S)', 374, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5817H.02P.pdf', -1, -1, -1, -1, ''),
 (357, 2026, 'R', '2302', '3/23/2026 Second read and referred: Judiciary and Civil and Criminal Jurisprudence', 375, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5833H.01P.pdf', -1, -1, -1, -1, ''),
 (356, 2026, 'R', '2274', '3/12/2026 Second read and referred: Education', 373, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4545H.01P.pdf', -1, -1, -1, -1, ''),
 (310, 2026, 'R', '1812', '3/31/2026 Second read and referred: Local Government, Elections and Pensions', 327, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5012H.01P.pdf', -1, -1, -1, -1, ''),
 (342, 2026, 'R', '2099', '3/23/2026 Second read and referred: General Laws', 361, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/3873H.04P.pdf', -1, -1, -1, -1, ''),
 (341, 2026, 'R', '2097', '4/2/2026 Voted Do Pass (S)', 357, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5237H.03P.pdf', -1, -1, -1, -1, ''),
-(338, 2026, 'R', '2061', '4/9/2026 Truly Agreed To and Finally Passed', 355, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4529H.03P.pdf', 455, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4529S.04T.pdf'),
+(338, 2026, 'R', '2061', '4/9/2026 Truly Agreed To and Finally Passed', 355, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4529H.03P.pdf', 455, -1, 34, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4529S.04T.pdf'),
 (339, 2026, 'R', '2069', '4/8/2026 Public Hearing Held (S)', 354, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4899H.02P.pdf', -1, -1, -1, -1, ''),
 (340, 2026, 'R', '2085', '4/8/2026 Voted Do Pass (S)', 353, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4086H.02P.pdf', -1, -1, -1, -1, ''),
 (337, 2026, 'R', '2057', '4/7/2026 Voted Do Pass (S)', 356, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/3896H.03P.pdf', -1, -1, -1, -1, ''),
@@ -281,20 +283,20 @@ INSERT INTO `housebills` (`ID`, `Year`, `Session`, `Bill`, `LastAction`, `voteid
 (332, 2026, 'R', '1963', '4/8/2026 Second read and referred: Emerging Issues and Professional Registration', 351, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4340H.01P.pdf', -1, -1, -1, -1, ''),
 (331, 2026, 'R', '1961', '3/24/2026 Public Hearing Held (S)', 347, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4056H.01P.pdf', -1, -1, -1, -1, ''),
 (330, 2026, 'R', '1948', '4/8/2026 Public Hearing Held (S)', 343, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4758H.03P.pdf', -1, -1, -1, -1, ''),
-(329, 2026, 'R', '1940', '4/7/2026 Public Hearing Held (S)', 345, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4851H.01P.pdf', -1, -1, -1, -1, ''),
+(329, 2026, 'R', '1940', '4/13/2026 SCS Voted Do Pass (S)', 345, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4851H.01P.pdf', -1, -1, -1, -1, ''),
 (474, 2026, 'R', '1885', '4/8/2026 Second read and referred: Commerce, Consumer Protection, Energy and the Environment', 440, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4193H.01P.pdf', -1, -1, -1, -1, ''),
 (463, 2026, 'R', '2372', '4/10/2026 Public Hearing Scheduled (S)', 432, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5868H.03P.pdf', -1, -1, -1, -1, ''),
 (327, 2026, 'R', '1917', '2/26/2026 Second read and referred: Commerce, Consumer Protection, Energy and the Environment', 346, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4940H.01P.pdf', -1, -1, -1, -1, ''),
 (324, 2026, 'R', '1883', '3/12/2026 Second read and referred: Economic and Workforce Development', 341, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4170H.02P.pdf', -1, -1, -1, -1, ''),
 (476, 2026, 'R', '2409', '4/8/2026 Second read and referred: Emerging Issues and Professional Registration', 443, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5914H.01P.pdf', -1, -1, -1, -1, ''),
-(460, 2026, 'R', '1919', '4/9/2026 Public Hearing Scheduled (S)', 430, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4985H.02P.pdf', -1, -1, -1, -1, ''),
+(460, 2026, 'R', '1919', '4/13/2026 Public Hearing Held (S)', 430, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4985H.02P.pdf', -1, -1, -1, -1, ''),
 (291, 2026, 'R', '1664', '4/8/2026 Reported Do Pass (S)', 314, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4713H.02P.pdf', -1, -1, -1, -1, ''),
 (292, 2026, 'R', '1667', '4/8/2026 Voted Do Pass (S)', 318, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/3882H.02P.pdf', -1, -1, -1, -1, ''),
 (318, 2026, 'R', '1847', '3/31/2026 Public Hearing Held (S)', 338, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/3984H.01P.pdf', -1, -1, -1, -1, ''),
-(619, 2026, 'R', '1869', '4/9/2026 Third Read and Passed (H)', 454, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5226H.02P.pdf', -1, -1, -1, -1, ''),
+(619, 2026, 'R', '1869', '4/13/2026 Reported to the Senate and First Read (S)', 454, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5226H.02P.pdf', -1, -1, -1, -1, ''),
 (370, 2026, 'R', '2423', '4/2/2026 House Message (H)', 381, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5714H.01P.pdf', 433, -1, 32, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5714S.02T.pdf'),
 (317, 2026, 'R', '1844', '3/12/2026 Second read and referred: Emerging Issues and Professional Registration', 339, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4064H.01P.pdf', -1, -1, -1, -1, ''),
-(316, 2026, 'R', '1840', '4/9/2026 Public Hearing Scheduled (S)', 336, 424, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4186H.03P.pdf', -1, -1, -1, -1, ''),
+(316, 2026, 'R', '1840', '4/13/2026 SCS Voted Do Pass (S)', 336, 424, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4186H.03P.pdf', -1, -1, -1, -1, ''),
 (314, 2026, 'R', '1838', '3/30/2026 SCS Voted Do Pass (S)', 333, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4294H.02P.pdf', -1, -1, -1, -1, ''),
 (313, 2026, 'R', '1827', '4/8/2026 Voted Do Pass Consent (S)', 334, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4120H.01P.pdf', -1, -1, -1, -1, ''),
 (312, 2026, 'R', '1826', '4/10/2026 Public Hearing Scheduled (S)', 335, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/3915H.02P.pdf', -1, -1, -1, -1, ''),
@@ -305,7 +307,7 @@ INSERT INTO `housebills` (`ID`, `Year`, `Session`, `Bill`, `LastAction`, `voteid
 (307, 2026, 'R', '1790', '3/12/2026 Second read and referred: Local Government, Elections and Pensions', 330, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4618H.02P.pdf', -1, -1, -1, -1, ''),
 (305, 2026, 'R', '1786', '4/8/2026 Reported Do Pass (S)', 323, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5484H.01P.pdf', -1, -1, -1, -1, ''),
 (304, 2026, 'R', '1783', '3/23/2026 Second read and referred: Families, Seniors and Health', 324, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5320H.01P.pdf', -1, -1, -1, -1, ''),
-(475, 2026, 'R', '2366', '4/8/2026 Second read and referred: Rules, Joint Rules, Resolutions and Ethics', 442, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5876H.02P.pdf', -1, -1, -1, -1, '');
+(475, 2026, 'R', '2366', '4/13/2026 Public Hearing Scheduled (S)', 442, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5876H.02P.pdf', -1, -1, -1, -1, '');
 INSERT INTO `housebills` (`ID`, `Year`, `Session`, `Bill`, `LastAction`, `voteid`, `ecvoteid`, `svoteid`, `secvoteid`, `perf_link`, `tavoteid`, `taecvoteid`, `stavoteid`, `staecvoteid`, `ta_link`) VALUES
 (301, 2026, 'R', '1757', '3/31/2026 Public Hearing Held (S)', 322, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5274H.02P.pdf', -1, -1, -1, -1, ''),
 (302, 2026, 'R', '1766', '2/26/2026 Second read and referred: Select Committee on Property Taxes and the State Tax Commission', 325, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5060H.01P.pdf', -1, -1, -1, -1, ''),
@@ -326,24 +328,25 @@ INSERT INTO `housebills` (`ID`, `Year`, `Session`, `Bill`, `LastAction`, `voteid
 (414, 2026, 'R', '3231', '4/8/2026 Public Hearing Held (S)', 419, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6321H.04P.pdf', -1, -1, -1, -1, ''),
 (477, 2026, 'R', '2658', '4/8/2026 Second read and referred: General Laws', 444, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6199H.03P.pdf', -1, -1, -1, -1, ''),
 (457, 2026, 'R', '1855', '4/8/2026 Second read and referred: Families, Seniors and Health', 429, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4267H.04P.pdf', -1, -1, -1, -1, ''),
-(416, 2026, 'R', '3279', '4/8/2026 Second read and referred: Rules, Joint Rules, Resolutions and Ethics', 422, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7172H.01P.pdf', -1, -1, -1, -1, ''),
+(416, 2026, 'R', '3279', '4/13/2026 Public Hearing Scheduled (S)', 422, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7172H.01P.pdf', -1, -1, -1, -1, ''),
 (417, 2026, 'R', '3308', '3/31/2026 Second read and referred: Economic and Workforce Development', 423, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7221H.03P.pdf', -1, -1, -1, -1, ''),
 (496, 2026, 'R', '2913', '4/8/2026 Reported to the Senate and First Read (S)', 449, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6539H.02P.pdf', -1, -1, -1, -1, ''),
 (495, 2026, 'R', '2465', '4/8/2026 Reported to the Senate and First Read (S)', 448, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4405H.02P.pdf', -1, -1, -1, -1, ''),
 (494, 2026, 'R', '2122', '4/8/2026 Reported to the Senate and First Read (S)', 447, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5630H.03P.pdf', -1, -1, -1, -1, ''),
 (503, 2026, 'R', '3239', '4/8/2026 Reported to the Senate and First Read (S)', 452, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/7046H.02P.pdf', -1, -1, -1, -1, ''),
 (493, 2026, 'R', '1791', '4/8/2026 Reported to the Senate and First Read (S)', 446, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4520H.02P.pdf', -1, -1, -1, -1, ''),
-(618, 2026, 'R', '1730', '4/9/2026 Third Read and Passed (H)', 453, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/3988H.01P.pdf', -1, -1, -1, -1, ''),
+(618, 2026, 'R', '1730', '4/13/2026 Reported to the Senate and First Read (S)', 453, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/3988H.01P.pdf', -1, -1, -1, -1, ''),
 (502, 2026, 'R', '2096', '4/8/2026 Reported to the Senate and First Read (S)', 451, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5271H.01P.pdf', -1, -1, -1, -1, ''),
-(621, 2026, 'R', '2387', '4/9/2026 Third Read and Passed (H)', 457, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4243H.04P.pdf', -1, -1, -1, -1, ''),
-(629, 2026, 'R', '3107', '4/9/2026 Third Read and Passed (H)', 464, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6806H.01P.pdf', -1, -1, -1, -1, ''),
-(628, 2026, 'R', '3080', '4/9/2026 Emergency Clause Defeated (H)', 465, 466, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6788H.03P.pdf', -1, -1, -1, -1, ''),
-(627, 2026, 'R', '2927', '4/9/2026 Third Read and Passed (H)', 463, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6567H.01P.pdf', -1, -1, -1, -1, ''),
-(626, 2026, 'R', '2885', '4/9/2026 Third Read and Passed (H)', 461, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6206H.02P.pdf', -1, -1, -1, -1, ''),
-(624, 2026, 'R', '2711', '4/9/2026 Third Read and Passed (H)', 460, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6029H.02P.pdf', -1, -1, -1, -1, ''),
-(623, 2026, 'R', '2517', '4/9/2026 Third Read and Passed (H)', 459, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5859H.02P.pdf', -1, -1, -1, -1, ''),
-(622, 2026, 'R', '2481', '4/9/2026 Third Read and Passed (H)', 458, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6262H.02P.pdf', -1, -1, -1, -1, ''),
-(620, 2026, 'R', '2292', '4/9/2026 Third Read and Passed (H)', 456, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4920H.03P.pdf', -1, -1, -1, -1, '');
+(621, 2026, 'R', '2387', '4/13/2026 Reported to the Senate and First Read (S)', 457, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4243H.04P.pdf', -1, -1, -1, -1, ''),
+(629, 2026, 'R', '3107', '4/13/2026 Reported to the Senate and First Read (S)', 464, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6806H.01P.pdf', -1, -1, -1, -1, ''),
+(628, 2026, 'R', '3080', '4/13/2026 Reported to the Senate and First Read (S)', 465, 466, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6788H.03P.pdf', -1, -1, -1, -1, ''),
+(627, 2026, 'R', '2927', '4/13/2026 Reported to the Senate and First Read (S)', 463, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6567H.01P.pdf', -1, -1, -1, -1, ''),
+(626, 2026, 'R', '2885', '4/13/2026 Reported to the Senate and First Read (S)', 461, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6206H.02P.pdf', -1, -1, -1, -1, ''),
+(624, 2026, 'R', '2711', '4/13/2026 Reported to the Senate and First Read (S)', 460, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6029H.02P.pdf', -1, -1, -1, -1, ''),
+(623, 2026, 'R', '2517', '4/13/2026 Reported to the Senate and First Read (S)', 459, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5859H.02P.pdf', -1, -1, -1, -1, ''),
+(622, 2026, 'R', '2481', '4/13/2026 Reported to the Senate and First Read (S)', 458, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6262H.02P.pdf', -1, -1, -1, -1, ''),
+(620, 2026, 'R', '2292', '4/13/2026 Reported to the Senate and First Read (S)', 456, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4920H.03P.pdf', -1, -1, -1, -1, ''),
+(633, 2026, 'R', '3111', '4/13/2026 Reported to the Senate and First Read (S)', 469, -1, -1, -1, 'https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/6756H.04P.pdf', -1, -1, -1, -1, '');
 
 -- --------------------------------------------------------
 
@@ -523,7 +526,7 @@ CREATE TABLE IF NOT EXISTS `housebillvotesh` (
   `162` varchar(5) DEFAULT 'V',
   `163` varchar(5) DEFAULT 'V',
   PRIMARY KEY (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=467 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=470 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `housebillvotesh`
@@ -988,7 +991,10 @@ INSERT INTO `housebillvotesh` (`ID`, `Yes`, `No`, `Present`, `Absent`, `Vacant`,
 (463, 90, 50, 1, 17, 5, 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'Y', 'N', 'N', 'Y', 'N', 'N', 'A', 'N', 'N', 'A', 'N', 'N', 'A', 'Y', 'Y', 'Y', 'Y', 'N', 'N', 'A', 'A', 'N', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'N', 'N', 'N', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'N', 'A', 'V', 'Y', 'N', 'N', 'N', 'N', 'V', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'A', 'N', 'V', 'A', 'N', 'N', 'V', 'Y', 'N', 'N', 'N', 'N', 'Y', 'V', 'Y', 'Y', 'N', 'Y', 'Y', 'A', 'A', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'V', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'N', 'P', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'Y', 'Y', 'A', 'Y', 'V', 'Y', 'Y', 'Y'),
 (464, 88, 49, 2, 19, 5, 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'N', 'A', 'Y', 'Y', 'N', 'N', 'Y', 'N', 'N', 'A', 'N', 'N', 'A', 'N', 'N', 'A', 'Y', 'Y', 'A', 'Y', 'N', 'N', 'A', 'P', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'N', 'N', 'N', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'A', 'V', 'Y', 'N', 'A', 'N', 'N', 'V', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'A', 'N', 'V', 'A', 'N', 'A', 'V', 'Y', 'N', 'N', 'N', 'N', 'Y', 'V', 'Y', 'Y', 'N', 'N', 'Y', 'A', 'A', 'Y', 'Y', 'A', 'Y', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'V', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'N', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'P', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'V', 'Y', 'N', 'Y', 'N', 'N', 'Y', 'Y', 'Y', 'A', 'Y', 'V', 'Y', 'Y', 'Y'),
 (465, 104, 34, 1, 19, 5, 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'A', 'A', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'P', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'A', 'V', 'Y', 'Y', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'V', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'N', 'A', 'A', 'Y', 'Y', 'Y', 'Y', 'A', 'N', 'N', 'V', 'Y', 'Y', 'Y', 'V', 'A', 'Y', 'A', 'A', 'N', 'Y', 'N', 'A', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'N', 'N', 'N', 'Y', 'N', 'N', 'N', 'Y', 'Y', 'Y', 'V', 'Y', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'A', 'Y', 'V', 'Y', 'Y', 'N'),
-(466, 104, 34, 1, 19, 5, 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'A', 'A', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'P', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'A', 'V', 'Y', 'Y', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'V', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'N', 'A', 'A', 'Y', 'Y', 'Y', 'Y', 'A', 'N', 'N', 'V', 'Y', 'Y', 'Y', 'V', 'A', 'Y', 'A', 'A', 'N', 'Y', 'N', 'A', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'N', 'N', 'N', 'Y', 'N', 'N', 'N', 'Y', 'Y', 'Y', 'V', 'Y', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'A', 'Y', 'V', 'Y', 'Y', 'N');
+(466, 104, 34, 1, 19, 5, 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'A', 'A', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'P', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'A', 'V', 'Y', 'Y', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'V', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'N', 'A', 'A', 'Y', 'Y', 'Y', 'Y', 'A', 'N', 'N', 'V', 'Y', 'Y', 'Y', 'V', 'A', 'Y', 'A', 'A', 'N', 'Y', 'N', 'A', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'N', 'N', 'N', 'Y', 'N', 'N', 'N', 'Y', 'Y', 'Y', 'V', 'Y', 'N', 'N', 'N', 'N', 'N', 'N', 'N', 'A', 'Y', 'V', 'Y', 'Y', 'N'),
+(467, 131, 6, 1, 20, 5, 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'A', 'A', 'A', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'A', 'Y', 'V', 'A', 'Y', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'N', 'V', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'P', 'A', 'Y', 'Y', 'A', 'A', 'V', 'Y', 'Y', 'Y'),
+(468, 139, 1, 0, 18, 5, 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'A', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'A', 'Y', 'V', 'A', 'Y', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'A', 'Y', 'A', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'A', 'Y', 'V', 'Y', 'Y', 'Y'),
+(469, 112, 28, 0, 18, 5, 'Y', 'N', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'A', 'A', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'A', 'Y', 'V', 'A', 'Y', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'V', 'Y', 'N', 'Y', 'Y', 'N', 'A', 'N', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'N', 'V', 'Y', 'Y', 'Y', 'V', 'Y', 'Y', 'N', 'Y', 'N', 'Y', 'A', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'N', 'N', 'N', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'V', 'Y', 'N', 'N', 'N', 'N', 'A', 'Y', 'N', 'A', 'A', 'V', 'Y', 'Y', 'N');
 
 -- --------------------------------------------------------
 
@@ -1040,7 +1046,7 @@ CREATE TABLE IF NOT EXISTS `housebillvotess` (
   `33` varchar(5) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT 'V',
   `34` varchar(5) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT 'V',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `housebillvotess`
@@ -1079,7 +1085,8 @@ INSERT INTO `housebillvotess` (`id`, `Yes`, `No`, `AbsentWOLeave`, `AbsentWLeave
 (30, 32, 0, 0, 2, 0, 0, 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y'),
 (31, 29, 1, 3, 1, 0, 0, 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'P', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'P', 'P', 'Y', 'Y', 'Y'),
 (32, 29, 0, 4, 1, 0, 0, 'Y', 'Y', 'Y', 'Y', 'A', 'Y', 'Y', 'Y', 'P', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'P', 'Y', 'P', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'P', 'Y', 'Y', 'Y'),
-(33, 25, 5, 3, 1, 0, 0, 'Y', 'Y', 'Y', 'N', 'A', 'P', 'Y', 'P', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'P', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y');
+(33, 25, 5, 3, 1, 0, 0, 'Y', 'Y', 'Y', 'N', 'A', 'P', 'Y', 'P', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'P', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y'),
+(34, 30, 0, 1, 3, 0, 0, 'Y', 'Y', 'Y', 'Y', 'A', 'P', 'Y', 'A', 'Y', 'A', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y');
 
 -- --------------------------------------------------------
 
@@ -1621,7 +1628,7 @@ CREATE TABLE IF NOT EXISTS `senatebills` (
   `ta_link` varchar(100) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `YSB` (`bill`,`year`,`session`)
-) ENGINE=MyISAM AUTO_INCREMENT=1316 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=1319 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `senatebills`
@@ -1682,45 +1689,48 @@ INSERT INTO `senatebills` (`id`, `year`, `session`, `bill`, `lastaction`, `votei
 (52, 2025, 'R', '396', '7/2/2025 Signed by Governor', 76, -1, 30, -1, 'https://www.senate.mo.gov/25info/pdf-bill/perf/SB396.pdf', -1, -1, -1, -1, ''),
 (53, 2025, 'R', '466', '5/8/2025 HCS Reported Do Pass H Rules - Legislative', 77, -1, -1, -1, 'https://www.senate.mo.gov/25info/pdf-bill/perf/SB466.pdf', -1, -1, -1, -1, ''),
 (1227, 2026, 'R', '834', 'Executive Session Scheduled H Financial Institutions--(12:00 p.m. or Upon morning recess - HR 1)', 275, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB834.pdf', -1, -1, -1, -1, ''),
-(1228, 2026, 'R', '835', 'HCS Referred H Rules - Administrative', 276, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB835.pdf', -1, -1, -1, -1, ''),
+(1228, 2026, 'R', '835', 'Executive Session Scheduled H Rules - Administrative--(9:00 a.m. - HR 4)', 276, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB835.pdf', -1, -1, -1, -1, ''),
 (1229, 2026, 'R', '878', 'H Second Read', 277, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB878.pdf', -1, -1, -1, -1, ''),
 (1230, 2026, 'R', '888', 'Message from Governor', 278, -1, 34, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB888.pdf', -1, -1, -1, -1, ''),
 (1231, 2026, 'R', '889', 'Reported Do Pass H Government Efficiency', 279, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB889.pdf', -1, -1, -1, -1, ''),
-(1232, 2026, 'R', '890', 'HCS Voted Do Pass H Corrections and Public Institutions', 280, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB890.pdf', -1, -1, -1, -1, ''),
+(1232, 2026, 'R', '890', 'HCS Reported Do Pass H Corrections and Public Institutions', 280, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB890.pdf', -1, -1, -1, -1, ''),
 (1233, 2026, 'R', '903', 'Reported Do Pass H Utilities', 281, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB903.pdf', -1, -1, -1, -1, ''),
-(1235, 2026, 'R', '907', 'Executive Session Scheduled H Consent and Procedure--(4:30 p.m. or Upon Adj. - HR 1)', 282, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB907.pdf', -1, -1, -1, -1, ''),
+(1235, 2026, 'R', '907', 'HCS Voted Do Pass H Consent and Procedure', 282, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB907.pdf', -1, -1, -1, -1, ''),
 (1237, 2026, 'R', '914', 'Reported Do Pass H Rules - Administrative', 283, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB914.pdf', -1, -1, -1, -1, ''),
 (1238, 2026, 'R', '937', 'Referred H Rules - Legislative', 284, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB937.pdf', -1, -1, -1, -1, ''),
 (1239, 2026, 'R', '938', 'Reported Do Pass H Agriculture', 285, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB938.pdf', -1, -1, -1, -1, ''),
-(1240, 2026, 'R', '945', 'Hearing Conducted H Corrections and Public Institutions', 286, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB945.pdf', -1, -1, -1, -1, ''),
+(1240, 2026, 'R', '945', 'Executive Session Scheduled H Corrections and Public Institutions--(12:15 p.m. or Upon Adj. of Financial Institutions - HR 1)', 286, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB945.pdf', -1, -1, -1, -1, ''),
 (1241, 2026, 'R', '953', 'Hearing Conducted H Conservation and Natural Resources', 287, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB953.pdf', -1, -1, -1, -1, ''),
 (1242, 2026, 'R', '959', 'Referred H Emerging Issues', 288, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB959.pdf', -1, -1, -1, -1, ''),
 (1243, 2026, 'R', '973', 'HCS Reported Do Pass H Commerce', 289, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB973.pdf', -1, -1, -1, -1, ''),
 (1244, 2026, 'R', '974', 'Hearing Conducted H Veterans and Armed Forces', 290, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB974.pdf', -1, -1, -1, -1, ''),
 (1245, 2026, 'R', '975', 'HCS Reported Do Pass H Rules - Administrative', 291, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB975.pdf', -1, -1, -1, -1, ''),
-(1247, 2026, 'R', '982', 'Executive Session Scheduled H Rules - Legislative--(3:45 p.m. - HR 4)', 292, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB982.pdf', -1, -1, -1, -1, ''),
+(1247, 2026, 'R', '982', 'HCS Reported Do Pass H Rules - Legislative', 292, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB982.pdf', -1, -1, -1, -1, ''),
 (1249, 2026, 'R', '994', 'HCS Reported Do Pass H Ways and Means', 293, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB994.pdf', -1, -1, -1, -1, ''),
 (1250, 2026, 'R', '1000', 'Hearing Conducted H Special Committee on Tourism', 294, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1000.pdf', -1, -1, -1, -1, ''),
 (1309, 2026, 'R', '1001', 'H Second Read', 314, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1001.pdf', -1, -1, -1, -1, ''),
 (1310, 2026, 'R', '1002', 'H Second Read', 315, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1002.pdf', -1, -1, -1, -1, ''),
-(1253, 2026, 'R', '1015', 'H Second Read', 295, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1015.pdf', -1, -1, -1, -1, ''),
+(1253, 2026, 'R', '1015', 'Referred H Health and Mental Health', 295, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1015.pdf', -1, -1, -1, -1, ''),
 (1254, 2026, 'R', '1019', 'Hearing Conducted H Health and Mental Health', 296, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1019.pdf', -1, -1, -1, -1, ''),
 (1255, 2026, 'R', '1020', 'Hearing Scheduled H Commerce--(8:00 a.m. - HR 6)', 297, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1020.pdf', -1, -1, -1, -1, ''),
+(1318, 2026, 'R', '1553', 'H First Read', 324, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1553.pdf', -1, -1, -1, -1, ''),
 (1257, 2026, 'R', '1032', 'Hearing Conducted H Ways and Means', 298, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1032.pdf', -1, -1, -1, -1, ''),
 (1258, 2026, 'R', '1062', 'Hearing Conducted H General Laws', 299, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1062.pdf', -1, -1, -1, -1, ''),
 (1259, 2026, 'R', '1066', 'Executive Session Scheduled H Special Committee on Property Tax--(12:00 p.m. or Upon Morning recess - HR 6)', 300, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1066.pdf', -1, -1, -1, -1, ''),
-(1261, 2026, 'R', '1087', 'Executive Session Action postponed H Rules - Administrative', 301, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1087.pdf', -1, -1, -1, -1, ''),
+(1261, 2026, 'R', '1087', 'Executive Session Scheduled H Rules - Administrative--(9:00 a.m. - HR 4)', 301, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1087.pdf', -1, -1, -1, -1, ''),
 (1262, 2026, 'R', '1119', 'Referred H General Laws', 302, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1119.pdf', -1, -1, -1, -1, ''),
 (1263, 2026, 'R', '1233', 'HCS Reported Do Pass H Professional Registration and Licensing', 303, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/reperf/SB1233.pdf', -1, -1, -1, -1, ''),
-(1264, 2026, 'R', '1351', 'Executive Session Scheduled H Special Committee on Intergovernmental Affairs--(4:00 p.m. or Upon Adj. - HR 6)', 304, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1351.pdf', -1, -1, -1, -1, ''),
+(1264, 2026, 'R', '1351', 'HCS Voted Do Pass H Special Committee on Intergovernmental Affairs', 304, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1351.pdf', -1, -1, -1, -1, ''),
 (1265, 2026, 'R', '1383', 'Referred H Legislative Review', 305, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1383.pdf', -1, -1, -1, -1, ''),
-(1266, 2026, 'R', '1408', 'Executive Session Scheduled H Transportation--(4:00 p.m. or Upon Adj. - HR 7)', 306, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1408.pdf', -1, -1, -1, -1, ''),
-(1267, 2026, 'R', '1421', 'Executive Session Scheduled H Emerging Issues--(4:30 p.m. or Upon Adj. - HR 7)', 307, 308, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1421.pdf', -1, -1, -1, -1, ''),
-(1313, 2026, 'R', '1470', 'Referred H Budget', 318, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1470.pdf', -1, -1, -1, -1, ''),
+(1266, 2026, 'R', '1408', 'Executive Session Scheduled H Transportation--(4:00 p.m. or Upon Adj. - HR 1)', 306, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1408.pdf', -1, -1, -1, -1, ''),
+(1267, 2026, 'R', '1421', 'Voted Do Pass H Emerging Issues', 307, 308, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1421.pdf', -1, -1, -1, -1, ''),
+(1313, 2026, 'R', '1470', 'Hearing Scheduled H Budget--(8:30 a.m. - HR 3)', 318, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1470.pdf', -1, -1, -1, -1, ''),
 (1314, 2026, 'R', '1572', 'H Second Read', 319, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1572.pdf', -1, -1, -1, -1, ''),
-(1270, 2026, 'R', '1576', 'H Second Read', 309, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1576.pdf', -1, -1, -1, -1, ''),
-(1307, 2026, 'R', '977', 'H Second Read', 312, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB977.pdf', -1, -1, -1, -1, ''),
-(1305, 2026, 'R', '905', 'Hearing Scheduled H Emerging Issues--(4:30 p.m. or Upon Adj. - HR 7)', 310, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB905.pdf', -1, -1, -1, -1, ''),
+(1270, 2026, 'R', '1576', 'Referred H Commerce', 309, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1576.pdf', -1, -1, -1, -1, ''),
+(1307, 2026, 'R', '977', 'Referred H Government Efficiency', 312, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB977.pdf', -1, -1, -1, -1, ''),
+(1317, 2026, 'R', '1196', 'H First Read', 322, 323, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1196.pdf', -1, -1, -1, -1, ''),
+(1316, 2026, 'R', '863', 'H First Read', 321, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB863.pdf', -1, -1, -1, -1, ''),
+(1305, 2026, 'R', '905', 'Hearing Conducted H Emerging Issues', 310, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB905.pdf', -1, -1, -1, -1, ''),
 (1306, 2026, 'R', '913', 'Referred H Agriculture', 311, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB913.pdf', -1, -1, -1, -1, ''),
 (1308, 2026, 'R', '991', 'H Second Read', 313, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB991.pdf', -1, -1, -1, -1, ''),
 (1311, 2026, 'R', '1023', 'H Second Read', 316, -1, -1, -1, 'https://www.senate.mo.gov/26info/pdf-bill/perf/SB1023.pdf', -1, -1, -1, -1, ''),
@@ -1997,7 +2007,7 @@ CREATE TABLE IF NOT EXISTS `senatebillvotess` (
   `33` varchar(5) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT 'V',
   `34` varchar(5) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL DEFAULT 'V',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=321 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=325 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 --
 -- Dumping data for table `senatebillvotess`
@@ -2303,7 +2313,11 @@ INSERT INTO `senatebillvotess` (`id`, `Yes`, `No`, `AbsentWOLeave`, `AbsentWLeav
 (317, 31, 0, 0, 3, 0, 0, 'Y', 'Y', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y'),
 (318, 31, 0, 0, 3, 0, 0, 'Y', 'Y', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y'),
 (319, 31, 0, 0, 3, 0, 0, 'Y', 'Y', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y'),
-(320, 30, 1, 0, 3, 0, 0, 'Y', 'Y', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y');
+(320, 30, 1, 0, 3, 0, 0, 'Y', 'Y', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y'),
+(321, 20, 8, 1, 5, 0, 0, 'Y', 'Y', 'Y', 'AWL', 'AWL', 'Y', 'N', 'AWL', 'AWL', 'Y', 'N', 'Y', 'N', 'N', 'Y', 'Y', 'N', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'N', 'AWL', 'AWOL', 'Y', 'Y', 'Y'),
+(322, 25, 3, 1, 5, 0, 0, 'Y', 'N', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'AWL', 'AWOL', 'N', 'Y', 'Y'),
+(323, 24, 4, 1, 5, 0, 0, 'N', 'N', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'AWL', 'AWOL', 'Y', 'Y', 'Y'),
+(324, 19, 9, 1, 5, 0, 0, 'Y', 'N', 'Y', 'AWL', 'AWL', 'Y', 'Y', 'AWL', 'AWL', 'Y', 'N', 'Y', 'AWOL', 'Y', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'N', 'Y', 'Y', 'Y', 'Y', 'Y', 'N', 'AWL', 'N', 'N', 'N', 'Y');
 
 -- --------------------------------------------------------
 
@@ -2474,7 +2488,7 @@ CREATE TABLE IF NOT EXISTS `statistics` (
 --
 
 INSERT INTO `statistics` (`id`, `year`, `session`, `housefiled`, `housetr`, `housetrp`, `housetrd`, `houseta`, `housetap`, `housetad`, `houseec`, `houseecp`, `houseecd`, `senatefiled`, `senatetr`, `senatetrp`, `senatetrd`, `senateta`, `senatetap`, `senatetad`, `senateec`, `senateecp`, `senateecd`, `updated`) VALUES
-(2, 2026, 'R', 1907, 150, 150, 0, 6, 6, 0, 4, 4, 0, 975, 45, 45, 0, 1, 1, 0, 1, 1, 0, '2026-04-10 07:00:01');
+(2, 2026, 'R', 1907, 153, 153, 0, 6, 6, 0, 4, 4, 0, 975, 48, 48, 0, 1, 1, 0, 2, 2, 0, '2026-04-14 08:42:21');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
