@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Sep 11, 2026 at 12:29 PM
+-- Generation Time: Sep 11, 2026 at 01:04 PM
 -- Server version: 9.1.0
 -- PHP Version: 8.3.14
 
@@ -2367,7 +2367,7 @@ CREATE TABLE IF NOT EXISTS `statistics` (
 --
 
 INSERT INTO `statistics` (`id`, `year`, `session`, `housefiled`, `housetr`, `housetrp`, `housetrd`, `houseta`, `housetap`, `housetad`, `houseec`, `houseecp`, `houseecd`, `senatefiled`, `senatetr`, `senatetrp`, `senatetrd`, `senateta`, `senatetap`, `senatetad`, `senateec`, `senateecp`, `senateecd`, `updated`) VALUES
-(2, 2026, 'R', 1939, 174, 173, 1, 44, 44, 0, 5, 5, 0, 975, 66, 66, 0, 39, 38, 1, 2, 2, 0, '2026-09-10 21:46:02');
+(2, 2026, 'R', 1939, 174, 173, 1, 44, 44, 0, 5, 5, 0, 975, 66, 66, 0, 39, 39, 0, 2, 2, 0, '2026-09-11 08:03:27');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
