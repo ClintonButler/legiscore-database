@@ -1,5 +1,5 @@
 -- Legiscore Scorecards backup for `house`
--- Generated: 2026-09-12 04:40:31 UTC
+-- Generated: 2026-09-21 17:34:47 UTC
 
 SET FOREIGN_KEY_CHECKS=0;
 
