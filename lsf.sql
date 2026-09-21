@@ -1,5 +1,5 @@
 -- Legiscore Scorecards backup for `lsf`
--- Generated: 2026-09-12 04:40:32 UTC
+-- Generated: 2026-09-21 17:34:50 UTC
 
 SET FOREIGN_KEY_CHECKS=0;
 
@@ -23,7 +23,7 @@ CREATE TABLE `housebillvotes` (
   `taecobjection` varchar(255) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`),
   UNIQUE KEY `YSB` (`year`,`session`,`bill`) USING BTREE
-) ENGINE=MyISAM AUTO_INCREMENT=314 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=315 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `housebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('1', '2025', 'R', '32', 'accept', '', '', '', '', '', '', '', '', '', '', '');
 INSERT INTO `housebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('2', '2025', 'R', '33', 'reject', '161.264(6)', 'A1S1', '', '', '', '', '', '', '', '', '');
@@ -338,6 +338,7 @@ INSERT INTO `housebillvotes` (`id`, `year`, `session`, `bill`, `result`, `sectio
 INSERT INTO `housebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('311', '2026', 'R', '3308', 'reject', '145.054', 'A3S21', 'none', '', '', 'none', '', '', 'none', '', '');
 INSERT INTO `housebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('312', '2026', 'R', '3329', 'reject', '100.270', 'A1S1', 'none', '', '', 'none', '', '', 'none', '', '');
 INSERT INTO `housebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('313', '2026', 'R', '3405', 'reject', '143.436', 'A3S23', 'none', '', '', 'none', '', '', 'none', '', '');
+INSERT INTO `housebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('314', '2026', 'R', '2426', 'reject', '431.061', 'A3S23', 'none', '', '', 'none', '', '', 'none', '', '');
 
 DROP TABLE IF EXISTS `senatebillvotes`;
 CREATE TABLE `senatebillvotes` (
@@ -359,7 +360,7 @@ CREATE TABLE `senatebillvotes` (
   `taecobjection` varchar(255) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`),
   UNIQUE KEY `YSB` (`year`,`session`,`bill`)
-) ENGINE=MyISAM AUTO_INCREMENT=113 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=120 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('1', '2025', 'R', '59', 'reject', '143.121(3)(12)', 'A3S23', 'none', '', '', 'none', '', '', 'none', '', '');
 INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('2', '2025', 'R', '81', 'reject', '320.111(10)(b)', 'A3S23', 'none', '', '', 'reject', '168.014', 'A3S23', 'reject', 'SECTION B', '');
@@ -473,5 +474,12 @@ INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `secti
 INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('110', '2026', 'R', '1586', 'reject', '260.213', 'A3S23', 'none', '', '', 'none', '', '', 'none', '', '');
 INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('111', '2026', 'R', '1652', 'reject', '210.1017', 'A1S2', 'none', '', '', 'none', '', '', 'none', '', '');
 INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('112', '2026', 'R', '1694', 'reject', '99.918', 'A3S23', 'none', '', '', 'none', '', '', 'none', '', '');
+INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('113', '2026', 'R', '944', 'reject', '57.540', 'A3S23', 'none', '', '', 'none', '', '', 'none', '', '');
+INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('114', '2026', 'R', '1092', 'reject', '337.600', 'A3S23', 'none', '', '', 'none', '', '', 'none', '', '');
+INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('115', '2026', 'R', '1142', 'reject', '347.186', 'A3S23', 'none', '', '', 'none', '', '', 'none', '', '');
+INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('116', '2026', 'R', '1328', 'reject', '9.025', 'A1S2', 'none', '', '', 'none', '', '', 'none', '', '');
+INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('117', '2026', 'R', '1544', 'reject', '227.906', 'A1S2', 'none', '', '', 'reject', '9.025', 'A1S2', 'none', '', '');
+INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('118', '2026', 'R', '1613', 'reject', '9.413', 'A1S2', 'none', '', '', 'none', '', '', 'none', '', '');
+INSERT INTO `senatebillvotes` (`id`, `year`, `session`, `bill`, `result`, `section`, `objection`, `ecresult`, `ecsection`, `ecobjection`, `taresult`, `tasection`, `taobjection`, `taecresult`, `taecsection`, `taecobjection`) VALUES ('119', '2026', 'R', '1629', 'reject', '319.019', 'A3S23', 'none', '', '', 'none', '', '', 'none', '', '');
 
 SET FOREIGN_KEY_CHECKS=1;
